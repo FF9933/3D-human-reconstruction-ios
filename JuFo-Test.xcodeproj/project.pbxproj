@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77976E662BAF0226008DEF28 /* JuFo_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976E652BAF0226008DEF28 /* JuFo_TestApp.swift */; };
+		77976E682BAF0226008DEF28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976E672BAF0226008DEF28 /* ContentView.swift */; };
+		77976E6A2BAF0227008DEF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77976E692BAF0227008DEF28 /* Assets.xcassets */; };
+		77976E6E2BAF0227008DEF28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77976E6D2BAF0227008DEF28 /* Preview Assets.xcassets */; };
+		77976E782BAF0227008DEF28 /* JuFo_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976E772BAF0227008DEF28 /* JuFo_TestTests.swift */; };
+		77976E822BAF0227008DEF28 /* JuFo_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976E812BAF0227008DEF28 /* JuFo_TestUITests.swift */; };
+		77976E842BAF0227008DEF28 /* JuFo_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976E832BAF0227008DEF28 /* JuFo_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77976E742BAF0227008DEF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77976E5A2BAF0226008DEF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77976E612BAF0226008DEF28;
+			remoteInfo = "JuFo-Test";
+		};
+		77976E7E2BAF0227008DEF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77976E5A2BAF0226008DEF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77976E612BAF0226008DEF28;
+			remoteInfo = "JuFo-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77976E622BAF0226008DEF28 /* JuFo-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JuFo-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77976E652BAF0226008DEF28 /* JuFo_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuFo_TestApp.swift; sourceTree = "<group>"; };
+		77976E672BAF0226008DEF28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77976E692BAF0227008DEF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77976E6B2BAF0227008DEF28 /* JuFo_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JuFo_Test.entitlements; sourceTree = "<group>"; };
+		77976E6D2BAF0227008DEF28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77976E732BAF0227008DEF28 /* JuFo-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JuFo-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77976E772BAF0227008DEF28 /* JuFo_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuFo_TestTests.swift; sourceTree = "<group>"; };
+		77976E7D2BAF0227008DEF28 /* JuFo-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JuFo-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77976E812BAF0227008DEF28 /* JuFo_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuFo_TestUITests.swift; sourceTree = "<group>"; };
+		77976E832BAF0227008DEF28 /* JuFo_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuFo_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77976E5F2BAF0226008DEF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77976E702BAF0227008DEF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77976E7A2BAF0227008DEF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77976E592BAF0226008DEF28 = {
+			isa = PBXGroup;
+			children = (
+				77976E642BAF0226008DEF28 /* JuFo-Test */,
+				77976E762BAF0227008DEF28 /* JuFo-TestTests */,
+				77976E802BAF0227008DEF28 /* JuFo-TestUITests */,
+				77976E632BAF0226008DEF28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77976E632BAF0226008DEF28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77976E622BAF0226008DEF28 /* JuFo-Test.app */,
+				77976E732BAF0227008DEF28 /* JuFo-TestTests.xctest */,
+				77976E7D2BAF0227008DEF28 /* JuFo-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77976E642BAF0226008DEF28 /* JuFo-Test */ = {
+			isa = PBXGroup;
+			children = (
+				77976E652BAF0226008DEF28 /* JuFo_TestApp.swift */,
+				77976E672BAF0226008DEF28 /* ContentView.swift */,
+				77976E692BAF0227008DEF28 /* Assets.xcassets */,
+				77976E6B2BAF0227008DEF28 /* JuFo_Test.entitlements */,
+				77976E6C2BAF0227008DEF28 /* Preview Content */,
+			);
+			path = "JuFo-Test";
+			sourceTree = "<group>";
+		};
+		77976E6C2BAF0227008DEF28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77976E6D2BAF0227008DEF28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77976E762BAF0227008DEF28 /* JuFo-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				77976E772BAF0227008DEF28 /* JuFo_TestTests.swift */,
+			);
+			path = "JuFo-TestTests";
+			sourceTree = "<group>";
+		};
+		77976E802BAF0227008DEF28 /* JuFo-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77976E812BAF0227008DEF28 /* JuFo_TestUITests.swift */,
+				77976E832BAF0227008DEF28 /* JuFo_TestUITestsLaunchTests.swift */,
+			);
+			path = "JuFo-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77976E612BAF0226008DEF28 /* JuFo-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77976E872BAF0227008DEF28 /* Build configuration list for PBXNativeTarget "JuFo-Test" */;
+			buildPhases = (
+				77976E5E2BAF0226008DEF28 /* Sources */,
+				77976E5F2BAF0226008DEF28 /* Frameworks */,
+				77976E602BAF0226008DEF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JuFo-Test";
+			productName = "JuFo-Test";
+			productReference = 77976E622BAF0226008DEF28 /* JuFo-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77976E722BAF0227008DEF28 /* JuFo-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77976E8A2BAF0227008DEF28 /* Build configuration list for PBXNativeTarget "JuFo-TestTests" */;
+			buildPhases = (
+				77976E6F2BAF0227008DEF28 /* Sources */,
+				77976E702BAF0227008DEF28 /* Frameworks */,
+				77976E712BAF0227008DEF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77976E752BAF0227008DEF28 /* PBXTargetDependency */,
+			);
+			name = "JuFo-TestTests";
+			productName = "JuFo-TestTests";
+			productReference = 77976E732BAF0227008DEF28 /* JuFo-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77976E7C2BAF0227008DEF28 /* JuFo-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77976E8D2BAF0227008DEF28 /* Build configuration list for PBXNativeTarget "JuFo-TestUITests" */;
+			buildPhases = (
+				77976E792BAF0227008DEF28 /* Sources */,
+				77976E7A2BAF0227008DEF28 /* Frameworks */,
+				77976E7B2BAF0227008DEF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77976E7F2BAF0227008DEF28 /* PBXTargetDependency */,
+			);
+			name = "JuFo-TestUITests";
+			productName = "JuFo-TestUITests";
+			productReference = 77976E7D2BAF0227008DEF28 /* JuFo-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77976E5A2BAF0226008DEF28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					77976E612BAF0226008DEF28 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					77976E722BAF0227008DEF28 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 77976E612BAF0226008DEF28;
+					};
+					77976E7C2BAF0227008DEF28 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 77976E612BAF0226008DEF28;
+					};
+				};
+			};
+			buildConfigurationList = 77976E5D2BAF0226008DEF28 /* Build configuration list for PBXProject "JuFo-Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77976E592BAF0226008DEF28;
+			productRefGroup = 77976E632BAF0226008DEF28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77976E612BAF0226008DEF28 /* JuFo-Test */,
+				77976E722BAF0227008DEF28 /* JuFo-TestTests */,
+				77976E7C2BAF0227008DEF28 /* JuFo-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77976E602BAF0226008DEF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77976E6E2BAF0227008DEF28 /* Preview Assets.xcassets in Resources */,
+				77976E6A2BAF0227008DEF28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77976E712BAF0227008DEF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77976E7B2BAF0227008DEF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77976E5E2BAF0226008DEF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77976E682BAF0226008DEF28 /* ContentView.swift in Sources */,
+				77976E662BAF0226008DEF28 /* JuFo_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77976E6F2BAF0227008DEF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77976E782BAF0227008DEF28 /* JuFo_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77976E792BAF0227008DEF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77976E842BAF0227008DEF28 /* JuFo_TestUITestsLaunchTests.swift in Sources */,
+				77976E822BAF0227008DEF28 /* JuFo_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77976E752BAF0227008DEF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77976E612BAF0226008DEF28 /* JuFo-Test */;
+			targetProxy = 77976E742BAF0227008DEF28 /* PBXContainerItemProxy */;
+		};
+		77976E7F2BAF0227008DEF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77976E612BAF0226008DEF28 /* JuFo-Test */;
+			targetProxy = 77976E7E2BAF0227008DEF28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77976E852BAF0227008DEF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77976E862BAF0227008DEF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		77976E882BAF0227008DEF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "JuFo-Test/JuFo_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JuFo-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = JFYD8WL885;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.pantushev.JuFo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77976E892BAF0227008DEF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "JuFo-Test/JuFo_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JuFo-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = JFYD8WL885;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.pantushev.JuFo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77976E8B2BAF0227008DEF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFYD8WL885;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.pantushev.JuFo-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuFo-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JuFo-Test";
+			};
+			name = Debug;
+		};
+		77976E8C2BAF0227008DEF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFYD8WL885;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.pantushev.JuFo-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuFo-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JuFo-Test";
+			};
+			name = Release;
+		};
+		77976E8E2BAF0227008DEF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFYD8WL885;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.pantushev.JuFo-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JuFo-Test";
+			};
+			name = Debug;
+		};
+		77976E8F2BAF0227008DEF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFYD8WL885;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.pantushev.JuFo-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JuFo-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77976E5D2BAF0226008DEF28 /* Build configuration list for PBXProject "JuFo-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77976E852BAF0227008DEF28 /* Debug */,
+				77976E862BAF0227008DEF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77976E872BAF0227008DEF28 /* Build configuration list for PBXNativeTarget "JuFo-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77976E882BAF0227008DEF28 /* Debug */,
+				77976E892BAF0227008DEF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77976E8A2BAF0227008DEF28 /* Build configuration list for PBXNativeTarget "JuFo-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77976E8B2BAF0227008DEF28 /* Debug */,
+				77976E8C2BAF0227008DEF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77976E8D2BAF0227008DEF28 /* Build configuration list for PBXNativeTarget "JuFo-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77976E8E2BAF0227008DEF28 /* Debug */,
+				77976E8F2BAF0227008DEF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77976E5A2BAF0226008DEF28 /* Project object */;
+}
