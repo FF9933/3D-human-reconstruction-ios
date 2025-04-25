@@ -1,3 +1,6 @@
+# 3D - (VERY FAST) Human Reconstruction using one image and a config picture 
+(Alpha and Beta Angles are extracted)
+# Alpha Angle Calc
 It is assumed in the work that each part of a body
 is connected to another and is fixed at a certain point, i.e. a circle is the maximum movement when the movement is parallel
 to the camera. This is shown graphically below:
