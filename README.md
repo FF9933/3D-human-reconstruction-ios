@@ -1,4 +1,4 @@
-# (VERY FAST) 3D - Human Reconstruction using one image and a config picture 
+# (VERY FAST) 3D - Human Pose Reconstruction using one image and a config picture 
 (Alpha and Beta Angles are extracted)
 # Alpha Angle Calc
 It is assumed in the work that each part of a body
