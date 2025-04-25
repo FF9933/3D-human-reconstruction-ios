@@ -3,7 +3,7 @@
 The goal is a quick calculation / reconstuction of the 2 angles of each human joint, using the known original size (from a config image) and a second picture.
 This program is quick and in terms of mathematical understanding fairly simple.
 
-# Alpha Angle Calc
+# Alpha Angle Calculation
 It is assumed in the work that each part of a body
 is connected to another and is fixed at a certain point, i.e. a circle is the maximum movement when the movement is parallel
 to the camera. This is shown graphically below:
