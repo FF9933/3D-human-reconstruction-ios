@@ -1,5 +1,8 @@
 # (VERY FAST) 3D - Human Pose Reconstruction using one image and a config picture 
 (Alpha and Beta Angles are extracted)
+The goal is a quick calculation / reconstuction of the 2 angles of each human joint, using the known original size (from a config image) and a single picture.
+This program is quick and in term of mathematics fairly simple.
+
 # Alpha Angle Calc
 It is assumed in the work that each part of a body
 is connected to another and is fixed at a certain point, i.e. a circle is the maximum movement when the movement is parallel
