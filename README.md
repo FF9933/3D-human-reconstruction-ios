@@ -55,6 +55,5 @@ Now HM can be calculated using the Pythagorean theorem:
 
 The arc cosine can now be calculated:
 \
-
-<img width="551" alt="Screenshot 2025-04-25 at 19 11 09" src="https://github.com/user-attachments/assets/693caadb-0877-4231-94ef-8139de6657f5" />
+<img width="551" alt="Screenshot 2025-04-25 at 19 19 07" src="https://github.com/user-attachments/assets/3e89b0af-654e-494b-b226-cb2ae87fd4bb" />
 
