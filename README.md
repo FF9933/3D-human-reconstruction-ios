@@ -1,3 +1,4 @@
+Beta angle calculation soon to follow
 # (VERY FAST) 3D - Human Pose Reconstruction using one image and a config picture 
 The aim is to quickly calculate / reconstruct the 2 angles of any human joint using the known original size (from a configuration image) and a second image.
 This programme is fast and relatively simple in terms of mathematical understanding.
